@@ -1,0 +1,182 @@
+.body {
+  font-family: 'Montserrat-Black', sans-serif;
+  font-weight: bold
+}
+
+/********Section Colors***********/
+.colored-section {
+  background-color: #ff4c68;
+
+  color: #FFFF;
+}
+
+.white-section {
+  background-color: #ffff;
+  
+}
+
+/************ Headings *************/
+h2 {
+  font-size: 2.0rem;
+  line-height: 1.5;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/********** Navbar overrides ************/
+.navbar {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.2rem;
+  padding: 0 0 3% 0;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 3.0rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+/********* Title & Image position/rotate *********/
+#title {
+  position: relative;
+}
+
+.container-fluid {
+  padding: 0 15% 20% 15%;
+  z-index: -1;
+}
+
+/********* Top Section title text *******/
+.dog-title {
+  padding: 5% 0 10% 0;
+  font-size: 3.0rem;
+  line-height: 1.2;
+  z-index: 0;
+}
+
+/************* Dog Phone Image ***************/
+.title-image {
+  padding-top: 5%;
+  transform: rotate(25deg);
+  width: 30%;
+  position: absolute;
+  margin-right: 20%;
+}
+
+/*****download buttons *****/
+.download-button {
+  margin: 10px 10px 0px 0px;
+}
+
+/***Title & Image Media Support Added for Smaller Devices*******/
+@media (max-width:1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .container-fluid {
+    padding: 0;
+  }
+
+  .title-image {
+    padding: 10%;
+    transform: rotate(0deg);
+    position: static;
+    width: 60%;
+    margin-right: 0%;
+  }
+}
+
+/******* Features Section ************/
+#features {
+  padding: 4.5% 15%;
+  position: relative;
+  text-align: center;
+}
+
+.icon-feature {
+  color: #ef8172;
+  font-size: 3rem;
+}
+
+.icon-feature:hover {
+  color: #ff4c68;
+}
+
+/******Testimonials Section********/
+#testimonials {
+  padding: 3% 15% 0 15%;
+  text-align: center;
+  background-color: #ef8172;
+  position: relative;
+}
+
+.circle {
+  width: 150px;
+  margin: 20px;
+  border-radius: 100%;
+}
+
+/************Press Section***********/
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding: 3%;
+  position: relative;
+}
+
+.press-images {
+  width: 15%;
+  padding: 0 5% 0 0;
+}
+
+/*********** Pricing Section ************/
+#pricing {
+  padding: 0 15% 0 15%;
+  position: relative;
+}
+
+/**************** CTA (Call to Action) Section ***********/
+#cta {
+  padding: 5% 15% 3% 15%;
+  text-align: center;
+  position: relative;
+}
+
+/********** footer section*********/
+#footer {
+  position: relative;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+/*************** Contact-Me & Contact-Me Button ***************/
+#contact {
+  position: relative;
+  padding: 5% 15% 3% 15%;
+  text-align: center;
+}
+
+.btn1 {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: 'Ubuntu';
+  color: #ffff;
+  font-size: 20px;
+  background: #ff4c68;
+  padding: 10px 20px 10px 20px;
+  border: solid black 2px;
+  text-decoration: none;
+}
+
+.btn1:hover {
+  background: black;
+  color: #ffff;
+  text-decoration: none;
+}
